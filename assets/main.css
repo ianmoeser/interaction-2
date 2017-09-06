@@ -1,2 +1,3 @@
-#h1 {font-family: "Comic Sans";}
+h1 {color: teal;
+	font-family: "Comic Sans";}
 body {background-image: url("photos/source.gif");}
