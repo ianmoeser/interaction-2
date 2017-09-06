@@ -1,2 +1,2 @@
-h1 {font-family: courier;}
-body {background-image: "photos/source.gif";}
+h1 {font-family: "courier";}
+body {background-image: url("photos/source.gif");}
