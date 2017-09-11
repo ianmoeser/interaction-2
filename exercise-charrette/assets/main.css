@@ -1,0 +1,216 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "tahoma", geneva, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 300px;
+	background: red;
+	color: white;
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	 float: left; 
+
+	 uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+/* button 1 */
+
+#button-1:hover {
+	transform: rotate(180deg) scale(.5);
+	opacity: .3;
+	width: 300px;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+	background-image: url('../photos/gaga.jpg');
+}
+
+/* button 2 */
+
+#button-2 {
+	color: white;
+}
+
+
+#button-2:hover {
+	color: yellow;
+	border-radius: 300px;
+}
+
+/* button 3 */
+
+#button-3 {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+	color: white;
+}
+
+
+#button-3:active {
+	color: yellow;
+	transform: skewX(50deg);
+	font-size: 50px;
+}
+
+/* button 4 */
+
+#button-4 {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+	color: white;
+}
+
+#button-4:hover {
+background-image: url('../photos/katy.jpg');
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ border: none;
+ color: yellow;
+ font-size: 38px;
+ -webkit-transform: rotateX(40.10704565915762deg) rotateY(-27.501974166279513deg)   ;
+ transform: rotateX(40.10704565915762deg) rotateY(-27.501974166279513deg)   ;
+}
+
+/* button 5 */
+
+#button-5 {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+	color: white;
+}
+
+#button-5:active {
+  color: yellow;
+  transform: translateY(500px);
+}
+
+/* button 6 */
+
+#button-6 {
+	color: white;
+}
+
+#button-6:active {
+  color: yellow;
+  border: 50px double;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* button 7 */
+
+#button-7 {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+	color: white;
+}
+
+#button-7:active {
+  color: yellow;
+  height: 1px;
+}
+
+/* button 8 */
+
+#button-8 {
+	transition:All 1s ease-in;
+    -webkit-transition:All 1s ease-in;
+    -moz-transition:All 1s ease-in;
+    -o-transition:All 1s ease-in;
+	color: white;
+}
+
+#button-8:hover {
+
+color: yellow;
+transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+-webkit-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+-moz-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+-o-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+-ms-transform: rotate(360deg) scale(1) skew(1deg) translate(0px);
+}
+
+/* button 9 */
+
+#button-9 {
+	transition:All 1s ease-in;
+    -webkit-transition:All 1s ease-in;
+    -moz-transition:All 1s ease-in;
+    -o-transition:All 1s ease-in;
+	color: white;
+}
+
+#button-9:hover {
+
+color: yellow;
+transform: rotate(53deg) scale(0.753) skew(35deg) translate(41px);
+-webkit-transform: rotate(53deg) scale(0.753) skew(35deg) translate(41px);
+-moz-transform: rotate(53deg) scale(0.753) skew(35deg) translate(41px);
+-o-transform: rotate(53deg) scale(0.753) skew(35deg) translate(41px);
+-ms-transform: rotate(53deg) scale(0.753) skew(35deg) translate(41px); }
+
+/* button 10 */
+
+#button-10 {
+	transition:All 4.4813s ease;
+    -webkit-transition:All 4.4813s ease;
+    -moz-transition:All 4.4813s ease;
+    -o-transition:All 4.4813s ease;
+	color: white;
+}
+
+#button-10:active {
+    transform: rotateY(130deg);
+}
+
+/* button 11 */
+
+#button-11 {
+	color: white;
+	background-color: white;
+}
+
+#button-11:active{
+	color: yellow;
+	background-color: red;
+}
+
+/* button 12 */
+
+#button-12 {
+	
+}
+
+#button-12:active{
+	color: yellow;
+	background-color: red;
+}
