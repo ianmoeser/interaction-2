@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOVER, HAS ARRIVED</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/script.js"></script>
+
+</head>
+
+<body>
+
+<div id="heart">
+
+</div>
+
+<div id="triangle">
+
+ </div>
+
+<div id="circle">
+
+ </div>
+
+<div id="square">
+
+</div>
+
+<div id="star">
+
+</div>
+
+<!-- start triangle audio -->
+<audio id="doodoo2" preload="auto">
+<source src="music/Bad Romance.m4a"></source>
+<source src="music/Bad Romance.m4a"></source>
+This browser does not support the HTML5 audio tag.
+</audio>    
+<script>
+var doodoo2 = $("#doodoo2")[0];
+$("#triangle").mouseenter(function() {
+doodoo2.play();
+
+});
+
+var doodoo2 = $("#doodoo2")[0];
+$("#triangle").mouseout(function() {
+//doodoo.stop();
+
+    doodoo2.pause();
+    //doodoo.currentTime = 100;
+
+});
+</script>
+<!-- end triangle audio -->
+
+<!-- triangle move -->
+
+<script>function moveDiv() {
+    var $span = $("#triangle");
+
+    $span.fadeOut(1000, function() {
+        var maxLeft = $(window).width() - $span.width();
+        var maxTop = $(window).height() - $span.height();
+        var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+        $span.css({ left: leftPos, top: topPos }).fadeIn(1000);
+    });
+};
+
+moveDiv();
+setInterval(moveDiv, 32000);
+</script>
+
+<!-- triangle move end -->
+
+<!-- start heart audio -->
+<audio id="doodoo" preload="auto">
+<source src="music/Toxic.m4a"></source>
+<source src="music/Toxic.m4a"></source>
+This browser does not support the HTML5 audio tag.
+</audio>    
+<script>
+var doodoo = $("#doodoo")[0];
+$("#heart").mouseenter(function() {
+doodoo.play();
+
+});
+
+var doodoo = $("#doodoo")[0];
+$("#heart").mouseout(function() {
+//doodoo.stop();
+
+    doodoo.pause();
+    //doodoo.currentTime = 100;
+
+});
+</script>
+<!-- end heart audio -->
+
+<!-- heart move -->
+<script>function moveDiv() {
+    var $span = $("#heart");
+
+    $span.fadeOut(1000, function() {
+        var maxLeft = $(window).width() - $span.width();
+        var maxTop = $(window).height() - $span.height();
+        var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+        $span.css({ left: leftPos, top: topPos }).fadeIn(1000);
+    });
+};
+
+moveDiv();
+setInterval(moveDiv, 41000);
+</script>
+<!-- heart move end -->
+
+<!-- start circle audio -->
+<audio id="doodoo3" preload="auto">
+<source src="music/Like a Prayer.m4a"></source>
+<source src="music/Like a Prayer.m4a"></source>
+This browser does not support the HTML5 audio tag.
+</audio>    
+<script>
+var doodoo3 = $("#doodoo3")[0];
+$("#circle").mouseenter(function() {
+doodoo3.play();
+
+});
+
+var doodoo3 = $("#doodoo3")[0];
+$("#circle").mouseout(function() {
+//doodoo.stop();
+
+    doodoo3.pause();
+    //doodoo.currentTime = 100;
+
+});
+</script>
+<!-- end circle audio -->
+
+<!-- circle move -->
+
+<script>function moveDiv() {
+    var $span = $("#circle");
+
+    $span.fadeOut(1000, function() {
+        var maxLeft = $(window).width() - $span.width();
+        var maxTop = $(window).height() - $span.height();
+        var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+        $span.css({ left: leftPos, top: topPos }).fadeIn(1000);
+    });
+};
+
+moveDiv();
+setInterval(moveDiv, 25000);
+</script>
+
+<!-- circle move end -->
+
+<!-- start square audio -->
+<audio id="doodoo4" preload="auto">
+<source src="music/Genesis.m4a"></source>
+<source src="music/Genesis.m4a"></source>
+This browser does not support the HTML5 audio tag.
+</audio>    
+<script>
+var doodoo4 = $("#doodoo4")[0];
+$("#square").mouseenter(function() {
+doodoo4.play();
+
+});
+
+var doodoo4 = $("#doodoo4")[0];
+$("#square").mouseout(function() {
+//doodoo.stop();
+
+    doodoo4.pause();
+    //doodoo.currentTime = 100;
+
+});
+</script>
+<!-- end square audio -->
+
+<!-- square move -->
+
+<script>function moveDiv() {
+    var $span = $("#square");
+
+    $span.fadeOut(700, function() {
+        var maxLeft = $(window).width() - $span.width();
+        var maxTop = $(window).height() - $span.height();
+        var leftPos = Math.floor(Math.random() * (maxLeft + 1))
+        var topPos = Math.floor(Math.random() * (maxTop + 1))
+
+        $span.css({ left: leftPos, top: topPos }).fadeIn(700);
+    });
+};
+
+moveDiv();
+setInterval(moveDiv, 30000);
+</script>
+
+<!-- square move end -->
+
+<!-- start star audio -->
+<audio id="doodoo5" preload="auto">
+<source src="music/LYLALS.m4a"></source>
+<source src="music/LYLALS.m4a"></source>
+This browser does not support the HTML5 audio tag.
+</audio>    
+<script>
+var doodoo5 = $("#doodoo5")[0];
+$("#star").mouseenter(function() {
+doodoo5.play();
+
+});
+
+var doodoo5 = $("#doodoo5")[0];
+$("#star").mouseout(function() {
+//doodoo.stop();
+
+    doodoo5.pause();
+    //doodoo.currentTime = 100;
+
+});
+</script>
+<!-- end star audio -->
+
+<!-- star move -->
+<script>
+$(document).ready(function(){
+    animateDiv();
+    
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    var newq = makeNewPosition();
+    var oldq = $('#star').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('#star').animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv();        
+    });
+    
+};
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}</script>
+
+<!-- star move end -->
+</body>
+</html>
