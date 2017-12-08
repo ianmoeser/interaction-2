@@ -1,0 +1,589 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+    background-color: magenta;
+}
+
+/*/LOGO/*/
+
+.logo {
+  width: 500px;
+  height: 300px;
+  background-color: aquamarine;
+  margin:auto;
+  overflow:visible;
+  clip-path: polygon(13% 10%, 30% 31%, 46% 6%, 55% 24%, 71% 10%, 77% 40%, 98% 35%, 78% 66%, 88% 96%, 56% 73%, 29% 95%, 25% 67%, 6% 69%, 16% 42%);
+}
+
+.RLOGO {
+  top: 4px;
+  left: 13px;
+  position: relative;
+  transform: scale(.5);
+}
+
+.ALOGO {
+  top: -370px;
+  left: 76px;
+  position: relative;
+  transform: scale(.5);
+}
+
+.DLOGO {
+  top: -686px;
+  left: 156px;
+  position: relative;
+  transform: scale(.5);
+}
+
+/*/END LOGO/*/
+
+.container {
+  overflow:hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 200px;
+  width: 150px;
+  transform: scale(.8);
+  float: left;
+  margin: 4px;
+  border: 0px solid #000000;
+}
+
+.container:hover {
+  transform: rotate(30deg);
+}
+
+/*A*/
+
+#A1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color:yellow;
+clip-path: polygon(60% 0, 0 92%, 100% 100%);
+}
+
+#A2 {
+height: 100px;
+width: 50px;
+position: relative;
+top: -140px;
+left: 60px;
+background-color: magenta;
+clip-path: polygon(56% 9%, 19% 74%, 79% 92%);
+}
+
+/*B*/
+
+#B1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(81% 14%, 18% 52%, 100% 75%, 0% 100%, 0% 55%, 0% 0%);
+}
+
+#B2 {
+height: 145px;
+width: 78px;
+top: -230px;
+left: -2px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(33% 38%, 33% 63%, 100% 50%);
+}
+
+#B3 {
+height: 145px;
+width: 78px;
+top: -270px;
+left: -2px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(33% 38%, 33% 63%, 100% 50%);
+}
+
+/*C*/
+
+#C1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color:yellow;
+clip-path: polygon(98% 31%, 39% 28%, 24% 51%, 43% 70%, 100% 51%, 65% 100%, 0% 78%, 2% 20%, 39% 2%);
+}
+
+/*D*/
+
+#D1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color:yellow;
+clip-path: polygon(0% 1%, 100% 67%, 0% 100%, 0% 38%);
+}
+
+#D2 {
+height: 146px;
+width: 99px;
+top: -153px;
+left: 20px;
+position: relative;
+background-color:magenta;
+clip-path: polygon(5% 17%, 57% 43%, 5% 68%, 5% 40%);
+}
+
+/*E*/
+
+#E1 {
+height: 100%;
+width: 100%;
+position: relative;
+background-color:yellow;
+clip-path: polygon(90% 0%, 0% 15%, 39% 53%, 0% 81%, 100% 100%, 44% 71%, 71% 53%, 48% 29%);
+}
+
+/*F*/
+
+#F1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color:yellow;
+clip-path: polygon(100% 0%, 0% 13%, 25% 100%, 39% 63%, 73% 42%, 39% 44%, 42% 27%);
+}
+
+/*G*/
+
+#G1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color:yellow;
+clip-path: polygon(100% 17%, 30% 0, 0 45%, 13% 83%, 67% 100%, 82% 70%, 100% 86%, 87% 48%, 49% 79%, 24% 43%, 43% 20%);
+}
+
+/*H*/
+
+#H1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(9% 0, 0 42%, 6% 100%, 28% 58%, 67% 57%, 82% 100%, 97% 55%, 87% 0, 66% 40%, 29% 41%);
+}
+
+/*I*/
+
+#I1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(49% 0, 38% 45%, 51% 100%, 66% 45%);
+}
+
+/*J*/
+
+#J1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(0 0, 93% 1%, 40% 9%, 47% 76%, 93% 63%, 35% 100%, 23% 13%);
+}
+
+/*K*/
+
+#K1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(16% 0%, 24% 100%, 39% 60%, 91% 100%, 49% 44%, 87% 0, 39% 32%);
+}
+
+/*L*/
+
+#L1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(7% 0%, 16% 100%, 100% 70%, 36% 76%);
+}
+
+/*M*/
+
+#M1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(1% 100%, 11% 0, 53% 45%, 87% 5%, 95% 100%, 72% 60%, 52% 79%, 33% 61%);
+}
+
+/*N*/
+
+#N1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(5% 100%, 7% 0, 64% 50%, 76% 0, 96% 100%, 28% 56%);
+}
+
+/*O*/
+
+#O1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(29% 0, 0 45%, 42% 100%, 100% 65%, 80% 13%);
+}
+
+#O2 {
+height: 200px;
+width: 150px;
+top:-194px;
+left: 3px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(51% 24%, 29% 44%, 43% 64%, 66% 54%, 63% 36%);
+}
+
+/*P*/
+
+#P1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(9% 100%, 13% 0, 100% 19%, 44% 46%);
+}
+
+#P2 {
+height: 200px;
+width: 150px;
+top: -236px;
+left: -11px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(42% 38%, 42% 48%, 69% 42%);
+}
+
+/*Q*/
+
+#Q1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(29% 0, 0 45%, 42% 100%, 100% 65%, 80% 13%);
+}
+
+#Q2 {
+height: 200px;
+width: 150px;
+top:-194px;
+left: 3px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(51% 24%, 29% 44%, 43% 64%, 66% 54%, 63% 36%);
+}
+
+#Q3 {
+height: 217px;
+width: 174px;
+top:-371px;
+left: -12px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(54% 34%, 71% 72%, 58% 79%);
+}
+
+/*R*/
+
+#R1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(16% 0, 100% 11%, 51% 44%, 91% 100%, 41% 64%, 10% 100%);
+}
+
+#R2 {
+height: 200px;
+width: 150px;
+top: -228px;
+left: -13px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(39% 29%, 71% 35%, 50% 44%);
+}
+
+/*S*/
+
+#S1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(84% 0, 0 42%, 62% 67%, 19% 100%, 100% 66%, 45% 40%);
+}
+
+/*T*/
+
+#T1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(2% 0, 43% 100%, 51% 19%, 100% 0);
+}
+
+/*U*/
+
+#U1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(9% 0, 21% 79%, 52% 100%, 87% 88%, 83% 0, 65% 64%, 45% 72%);
+}
+
+/*V*/
+
+#V1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(9% 0, 54% 100%, 100% 0, 55% 49%);
+}
+
+/*W*/
+
+#W1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+transform: rotate(180deg);
+clip-path: polygon(1% 100%, 11% 0, 53% 45%, 87% 5%, 95% 100%, 72% 60%, 52% 79%, 33% 61%);
+}
+
+/*X*/
+
+#X1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(10% 0, 51% 45%, 85% 5%, 61% 55%, 90% 100%, 51% 65%, 7% 100%, 40% 56%);
+}
+
+/*Y*/
+
+#Y1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(17% 3%, 41% 43%, 43% 100%, 79% 41%, 78% 0, 56% 28%);
+}
+
+/*Z*/
+
+#Z1 {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(5% 0, 94% 20%, 46% 74%, 99% 97%, 0 86%, 64% 28%);
+}
+
+/*ONE*/
+
+#ONE {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(19% 24%, 76% 0, 66% 100%, 51% 25%);
+}
+
+/*TWO*/
+
+#TWO {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(16% 40%, 45% 0, 72% 9%, 55% 84%, 91% 100%, 10% 100%, 51% 20%);
+}
+
+/*THREE*/
+
+#THREE {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(7% 0, 100% 13%, 67% 48%, 100% 84%, 0 98%, 55% 72%, 29% 48%, 54% 19%);
+}
+
+/*FOUR*/
+
+#FOUR {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(48% 21%, 11% 51%, 53% 54%, 78% 100%, 75% 0);
+}
+
+#FOUR2 {
+height: 200px;
+width: 150px;
+top: -207px;
+left: 3px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(56% 27%, 41% 48%, 61% 48%);
+}
+
+/*FIVE*/
+
+#FIVE {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(100% 0, 41% 18%, 39% 44%, 81% 53%, 87% 85%, 16% 100%, 64% 67%, 18% 56%, 13% 8%);
+}
+
+/*SIX*/
+
+#SIX {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(21% 46%, 34% 61%, 72% 60%, 89% 78%, 68% 100%, 31% 100%, 10% 78%, 2% 46%, 25% 0);
+}
+
+#SIX2 {
+height: 100px;
+width: 100px;
+top: -94px;
+left: 34px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(47% 34%, 62% 46%, 64% 66%, 33% 70%, 17% 53%);
+}
+
+/*SEVEN*/
+
+#SEVEN {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(0 0, 57% 0, 100% 0, 40% 100%, 57% 45%, 65% 13%);
+}
+
+/*EIGHT*/
+
+#EIGHT {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(19% 23%, 37% 0, 80% 2%, 85% 28%, 60% 50%, 83% 60%, 89% 87%, 55% 100%, 16% 87%, 22% 63%, 47% 50%);
+}
+
+#EIGHT2 {
+height: 92px;
+width: 74px;
+top: -203px;
+left: 43px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(40% 32%, 72% 33%, 74% 54%, 63% 71%, 31% 71%, 27% 48%);
+}
+
+#EIGHT3 {
+height: 124px;
+width: 86px;
+top: -209px;
+left: 36px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(40% 32%, 63% 38%, 74% 54%, 63% 71%, 39% 64%, 21% 48%);
+}
+
+/*NINE*/
+
+.NINE {
+  transform: rotate(180deg);
+}
+
+#NINE {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(21% 46%, 34% 61%, 72% 60%, 89% 78%, 68% 100%, 31% 100%, 10% 78%, 2% 46%, 25% 0);
+}
+
+#NINE2 {
+height: 100px;
+width: 100px;
+top: -94px;
+left: 34px;
+position: relative;
+background-color: magenta;
+clip-path: polygon(47% 34%, 62% 46%, 64% 66%, 33% 70%, 17% 53%);
+}
+
+/*QUESTION*/
+
+#QUESTION {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(0 0, 100% 0, 52% 74%, 67% 14%);
+}
+
+#QUESTION2 {
+height: 200px;
+width: 150px;
+top: -100px;
+left: 3px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(49% 32%, 39% 42%, 50% 50%, 59% 41%);
+}
+
+/*EXCLAMATION*/
+
+#EXCLAMATION {
+height: 200px;
+width: 150px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(38% 0, 51% 80%, 64% 0);
+}
+
+#EXCLAMATION2 {
+height: 200px;
+width: 150px;
+top: -100px;
+left: 3px;
+position: relative;
+background-color: yellow;
+clip-path: polygon(49% 32%, 39% 42%, 50% 50%, 59% 41%);
+}
